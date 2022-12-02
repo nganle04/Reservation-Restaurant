@@ -1,0 +1,218 @@
+.dark-mode {
+    .nav-link{
+        color: $dark-link-color;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        color: $dark-text-color;
+    }
+    .header{
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #555;
+            overflow: hidden;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .ms-4 .d-flex .dropdown {
+            box-shadow: 0 0 1px #333, 0 0 0 4px #555;
+        }
+    }
+    img.img-25 {
+        background-color: #555;
+    }
+    #header-tab .nav-link,.top.nav-tabs .nav-link{
+        color: $dark-link-color;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        background-color: transparent;
+    }
+    
+    tbody td {
+        color: $dark-text-color;
+    }
+    .table-striped > tbody > tr:nth-of-type(odd) > * {
+        background: #111;
+        color: $dark-text-color;
+    }
+    p,h1,h5,h6,h4,
+    .search-bar > svg {
+        color: $dark-text-color;
+    }
+    a,a:hover{
+        color: $dark-text-color;
+    }
+    .border-light {
+        border-color: #666  !important;
+    }
+    .bg-light {
+        background-color: #555 !important;
+    }
+    .bg-light .text-success {
+        color: $app-primary-color !important;
+    }
+    .text-dark {
+        color: #fff !important;
+    }
+    .swiper-pagination-bullet{
+        background: white;
+    }
+
+    #season-selector {
+        box-shadow: 0 0 1px #333, 0 0 0 4px #555;
+    }
+    #season-selector a {
+        color: #efefef;
+        background: #232323;
+    }
+    input.search-bar {
+        background: #444;
+    }
+    .filter,.news-article:hover,.link-item:hover  {
+        background: #4F4F4F;
+    }
+    .filter .search-bar {
+        box-shadow: none;
+        border: 1px solid #fff;
+    }
+    .filter .search-bar > input {
+        color: #aaa;
+    }
+    .accordion-item {
+        border: none;
+    }
+    .accordion-body  {
+        background: #333;
+    }
+    .accordion-button:not(.collapsed) {
+        color: $dark-text-color;
+        background-color: #222;
+    }
+    .accordion-button  {
+        color: #efefef;
+    }
+    #header {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+        border-bottom: 2px solid white;
+    }
+    .card {
+        border: none;
+    }
+    .card-body {
+        background-color: #444;
+    }
+    .card-header {
+        background-color: #333;
+        color: $dark-text-color;
+    }
+
+    .spinner-border {
+        color: $dark-text-color;
+    }
+    .player-stats-container{
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    }
+    .bg-white {
+        color: $dark-text-color;
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    }
+    #league-nav .nav-link,
+    #league-nav .nav-link.active {
+        color: #efefef;
+    }
+    .news-article{
+        background: #222;
+    }
+
+    .leagues {
+        border-left: 2px solid #efefef;
+    }
+    .body-container {
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    }
+    .fixture-wrapper {
+        .fixture:hover {
+            background: #4F4F4F;
+        }
+        a.fixture {
+            color: $dark-text-color;
+        }
+        .head {
+            background-color: #444;
+            .col-2 svg{
+                color: $dark-text-color;
+            }
+        }
+    }
+    .btn-icon {
+        color: #ccc;
+    }
+    .Calendar {
+        background-color: #333;
+    }
+    .Calendar__day {
+        color: $dark-text-color;
+    }
+    .Calendar button {
+        color: $dark-text-color;
+    }
+    .Calendar__monthArrow {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg class='nc-icon-wrapper' fill='%23000000'%3E%3Cdefs stroke='none'%3E%3C/defs%3E%3Cpath class='cls-1' d='M12 23.25V.75' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5px'%3E%3C/path%3E%3Cpath class='cls-2' d='M22.5 11.25L12 .75 1.5 11.25' fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5px' fill-rule='evenodd'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+    }
+    .Calendar__monthSelector,.Calendar__yearSelector {
+        background-color: #444;
+    }
+    .Calendar__monthYear.-shown > *:hover, .Calendar:not(.-noFocusOutline) .Calendar__monthYear.-shown > *:focus, .Calendar__monthYear > *.-activeBackground {
+        background: none;
+        border: 1px solid #f5f5f5;
+    }
+    .Calendar__yearSelectorWrapper::before {
+        background-image: linear-gradient(to top, #444, #444 10%, rgba(245, 245, 245, 0));
+    }
+    .Calendar__yearSelectorWrapper::after {
+        background-image: linear-gradient(to bottom, #444, #444 10%, rgba(245, 245, 245, 0));
+    }
+    .Calendar__day.-today:not(.-selectedStart):not(.-selectedEnd):not(.-selectedBetween) {
+        color: #f5f5f5;
+        border: 1px solid var(--cl-color-primary);
+    }   
+
+    #bottom-sticky-navbar {
+        background: #323232ec;
+    }
+    #bottom-sticky-navbar li {
+        color: #f5f5f5;
+    }
+    /* Box Styles */
+    .box{
+        background: #333;
+        color: $dark-text-color;
+    }
+    .rce-mbox{
+        background-color: #444;
+    }
+    svg.rce-mbox-left-notch,svg.rce-mbox-right-notch {
+        fill: #444;
+    }
+    .btn-outline-success {
+        color: $dark-link-color;
+        border-color: $dark-link-color;
+    }
+    #match-header .active p {
+        color: #fff;
+        font-weight: bold;
+    }
+    .shadow {
+        box-shadow: 0 0.5rem 1rem rgb(255 255 255 / 15%) !important;
+    }
+    th{
+        color: #ddd;
+    }
+}

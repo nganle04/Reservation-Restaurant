@@ -1,0 +1,18 @@
+@media only screen  and (max-width: 575px){
+    .branding {
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+    .branding .me-4 {
+        margin: 0 !important;
+    }
+    
+}
+@media (max-width: 1440px){
+    h5.section-title {
+        font-size: 16px;
+    }
+    h4.section-title {
+        font-size: 18px;
+    }
+}

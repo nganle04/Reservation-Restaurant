@@ -1,0 +1,25 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Bebas+Neue&family=Roboto&display=swap');
+@font-face {
+    font-family: 'Helvetica';
+    src: url(/fonts/Helvetica.ttf);
+}
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// App Css
+@import 'home';
+@import 'style';
+@import 'sidebar';
+@import 'dashboard';
+@import 'skeleton-loading';
+
+
+
+// @import 'dark-mode';
+@import 'responsive';
+
